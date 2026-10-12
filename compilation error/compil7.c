@@ -9,6 +9,8 @@ int main() {
     {
         tableau[j] = 1;
     }
-    printf("OK %d\n", tableau[5]);
+    printf("OK %d\n", tableau[2]);
     return 0;
 }
+
+// tableau [5] n'était pas défini
