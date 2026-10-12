@@ -3,8 +3,9 @@
 int main() {
     if (1) {
         printf("ok\n");
-    } else
+    } else{
         printf("nope\n");
         }
     return 0;
 }
+//expected identifier or '(' before 'return'
