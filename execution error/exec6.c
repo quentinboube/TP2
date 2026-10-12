@@ -3,7 +3,8 @@
 int main() {
     char nom[4];
     printf("Nom ? ");
-    scanf("%s", nom); 
+    scanf("%s", &nom); 
     printf("Bonjour %s\n", nom);
     return 0;
 }
+// manque le "&" dans le scanf
