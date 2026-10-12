@@ -2,6 +2,7 @@
 
 int main() {
     int x = 10;
-    printf("x = %d\n", y);
+    printf("x = %d\n", x);
     return 0;
 }
+//identifier "y" is undefined
